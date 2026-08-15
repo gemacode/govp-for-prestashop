@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>govpexchange</name>
+  <displayName><![CDATA[GOVP for PrestaShop]]></displayName>
+  <version><![CDATA[0.1.0]]></version>
+  <description><![CDATA[Generates and delivers verifiable GOVP from PrestaShop orders.]]></description>
+  <author><![CDATA[Gemacode]]></author>
+  <tab><![CDATA[shipping_logistics]]></tab>
+  <confirmUninstall><![CDATA[Remove GOVP connection settings and local delivery records?]]></confirmUninstall>
+  <is_configurable>1</is_configurable>
+  <need_instance>0</need_instance>
+</module>
+
