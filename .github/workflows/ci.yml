@@ -14,7 +14,7 @@ jobs:
       matrix:
         php: ['8.1', '8.2', '8.3', '8.4']
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
@@ -26,7 +26,7 @@ jobs:
       matrix:
         image: ['prestashop/prestashop:8', 'prestashop/prestashop:9']
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Native install lifecycle
         env:
           PRESTASHOP_IMAGE: ${{ matrix.image }}
