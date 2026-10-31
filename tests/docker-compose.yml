@@ -1,6 +1,6 @@
 services:
   database:
-    image: mariadb:10.11
+    image: mariadb:13.0
     environment:
       MARIADB_ROOT_PASSWORD: native-test-root
       MARIADB_DATABASE: prestashop
